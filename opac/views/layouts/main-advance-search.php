@@ -47,7 +47,7 @@ $alamat = Yii::$app->request->cookies->getValue('location_detail_opac')['Address
 //OpacHelpers::print__r($catArticle);
 if(!Yii::$app->user->isGuest){
     $noAnggota = \Yii::$app->user->identity->NoAnggota;
-    $this->title = 'Online Public Access Catalog - Perpusnas RI';
+    $this->title = 'Perpustakaan Provinsi Bali';
     $booking = Collections::find()
                     ->select([
                         'collections.BookingExpiredDate',
@@ -97,7 +97,7 @@ else {
     <meta charset="<?= Yii::$app->charset ?>">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <?= Html::csrfMetaTags() ?>
-    <title>Online Public Access Catalog - Perpusnas RI</title>
+    <title>Perpustakaan Provinsi Bali</title>
     <!-- Tell the browser to be responsive to screen width -->
     <meta content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no" name="viewport">
     <link rel="shortcut icon" type='image/x-icon' href="<?=Yii::$app->urlManager->createUrl('../uploaded_files/aplikasi/favicon.png');?>">
@@ -119,7 +119,7 @@ else {
                            <!--  <div class="image"> <a href='<?=$homeUrl?>'> <img src="<?= Yii::$app->urlManager->createUrl('../uploaded_files/aplikasi/logo_perpusnas_2015.png') ?>" class="img-logo" height="65" width="70"> </a></div> -->
                             <div class="image"><img src="<?= Yii::$app->urlManager->createUrl('../uploaded_files/aplikasi/logo_perpusnas_2015.png') ?>" class="img-logo" height="65" width="70"></div>
                             <div class="text">
-                                <h3 style="margin-top: 20px;">Mobile 1</h3>
+                                <h3 style="margin-top: 20px;">Perpustakaan Provinsi Bali</h3>
                                 <div class="clear"></div>
                                 <div class="time"><?= $namaperpus ?></div><br/>
                                 <div class="clear"></div>
