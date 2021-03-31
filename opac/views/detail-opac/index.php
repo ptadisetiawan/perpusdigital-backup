@@ -190,7 +190,7 @@ else {
                     <!-- <img style="height: 100%;
                     padding: 15px;
                     width: auto; padding: 7px 15px;" src="https://res.cloudinary.com/candidbusiness/image/upload/v1455406304/dispute-bills-chicago.png" alt="Logo"> -->
-                    <h3>Perpustakaan Digital</h3>
+                    <h3>Perpustakaan Provinsi Bali</h3>
                     </a>
                 </div>
                 <div id="navbar2" class="navbar-collapse collapse">
