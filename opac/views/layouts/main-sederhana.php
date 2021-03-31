@@ -118,7 +118,7 @@ else {
                     <span class="icon-bar"></span>
                     </button>
                     <a style="text-decoration:none; color:#FFFFFF;" class="navbar-brand" href="#">
-                    <h3>Perpustakaan Digital</h3>
+                    <h3>Perpustakaan Provinsi Bali</h3>
                     </a>
                 </div>
                 <div id="navbar2" class="navbar-collapse collapse">
